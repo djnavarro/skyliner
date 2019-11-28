@@ -76,7 +76,9 @@ skyline <- function(file = NULL) {
 
       },
       movie.name = file,
-      interval = .2
+      interval = .2,
+      ani.height = 800,
+      ani.width = 800
     )
 
   # or, if no file is specified, assume the calling function
