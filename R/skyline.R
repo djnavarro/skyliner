@@ -168,7 +168,7 @@ get_prefix <- function(col, name) {
 get_image <- function() {
 
   tmp_path <- tempdir()
-  zip_path <- system.file("extdata", "skyline.zip", package = "jasmines", mustWork = TRUE)
+  zip_path <- system.file("extdata", "skyline.zip", package = "skyliner", mustWork = TRUE)
   eps_path <- file.path(tmp_path, "original.eps")
   xml_path <- file.path(tmp_path, "251102-P4FWZV-557.xml")
   utils::unzip(zip_path, exdir = tmp_path)
